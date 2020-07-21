@@ -770,6 +770,10 @@ dt {
   float: left;
   margin-left: 0px;
 }
+#header nav li.back {
+  float: right;
+  margin-right: 0px;
+}
 #header nav li.downloads {
   float: right;
   margin-left: 6px;
@@ -845,7 +849,14 @@ section #title .credits.right {
     margin-top: 40px;
   }
 
-  nav {
+  #header nav li.fork {
     display: none;
+  }
+  #header nav li.back {
+    margin-top: 6px
+  }
+  #header nav li.back a {
+    font-size: 10px;
+    line-height: 1px;
   }
 }

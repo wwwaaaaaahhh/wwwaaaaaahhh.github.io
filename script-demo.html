@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Script Demos</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/wwwaaaaaahhh/simple-js-scripts">View On GitHub</a></li>
+          <li class="back"><a href="index.html">Home Page</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Script Demos</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/wwwaaaaaahhh">wwwaaaaaahhh</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+        <p><a href="javascript:var search = prompt('Enter your query.');if (search != null) { window.open('https://google.com/search?q='+search) }">google</a> - opens a google query in a new tab</p>
+        <p><a href="javascript:var x = prompt('What is X? (X̲̭̅ ÷ Y)'); var y = prompt('What is Y? (X ÷ Y̲̭̅)'); var xNum = Number(x); var yNum = Number(y); var z = xNum / yNum; var zFloor = Math.floor(z); var zRemainder = xNum % yNum; if (zRemainder == 0) { alert(zFloor) } else { alert(zFloor + ' R ' + zRemainder + '\n(' + z + ')') };">long-div</a> - does long division and gives the result</p>
+        <p><a href="javascript:var text = prompt('Enter any text to open it in a window');myWindow = window.open('', 'myWindow', 'width=300,height=300'); myWindow.document.write('<head> <title>&nbsp;</title> </head> <p style+&quot;font-family=sans-serif&quot;>'+text+'</p> <input type=&quot;button&quot; onclick=&quot;self.close()&quot; value=&quot;Close&quot;>'); myWindow.focus();">open-text</a> - opens HTML text in a new window</p>
+        <p>random - opens a random number to 1000 in a new window<br>
+        &emsp;&emsp;<a href="javascript:var rand = Math.floor(Math.random() * 1000) + 1; myWindow = window.open('', 'myWindow', 'width=200,height=119'); myWindow.document.write('<head> <title>Random</title> </head> <p id=&quot;txt&quot;>Your number is '+rand+'</p> <button onclick=&quot;self.close()&quot;>Close</button>'); myWindow.focus()">integer</a>, or <a href="javascript:var rand = Math.random() * 1001;myWindow = window.open('', 'myWindow', 'width=200,height=141'); myWindow.document.write('<head> <title>Random</title> </head> <p>Your number is '+rand+'</p> <button onclick=&quot;self.close()&quot;>Close</button>'); myWindow.focus()">rational</a>
+        </p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
