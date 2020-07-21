@@ -555,6 +555,11 @@ p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
 
+p.extra {
+    font-size: 10px;
+    font-style: italic;
+}
+
 h1, h2, h3 {
   line-height: 1.1;
 }
